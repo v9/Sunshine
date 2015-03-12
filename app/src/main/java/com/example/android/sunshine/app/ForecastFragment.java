@@ -90,7 +90,7 @@ public class ForecastFragment extends Fragment {
 
         ListView listView= (ListView)rootView.findViewById(R.id.listview_forecast);
         listView.setAdapter(mForecastAdapter);
-        
+
         //code for Toast
         /*listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             public  void onItemClick(AdapterView<?> adapterView, View view, int position, long l){
